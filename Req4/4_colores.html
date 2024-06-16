@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="divAzul" style="height: 200px; width: 200px; color: blue">Soy originalmente Azul</div>
+    <div id="divRojo" style="height: 200px; width: 200px; color: red">Soy originalmente Rojo</div>
+    <div id="divVerde" style="height: 200px; width: 200px; color: green">Soy originalmente Verde</div>
+    <div id="divAmarillo" style="height: 200px; width: 200px; color: yellow">Soy originalmente Amarillo</div>
+
+    <script>
+        const azul = document.getElementById("divAzul")
+        azul.addEventListener("click", () => azul.style.color= 'black' )
+
+         const rojo = document.getElementById("divRojo")
+        rojo.addEventListener("click", () => rojo.style.color= 'black' )
+
+        const verde = document.getElementById("divVerde")
+        verde.addEventListener("click", () => verde.style.color= 'black' )
+
+        const amarillo = document.getElementById("divAmarillo")
+        amarillo.addEventListener("click", () => amarillo.style.color= 'black' )
+    </script>
+
+</body>
+</html>
